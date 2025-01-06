@@ -35,7 +35,9 @@ You can push your notes to GitHub for backup or syncing across multiple devices.
 	
 	- Navigate to **Settings** > **Community Plugins** > **Git**.
 	- Enter your GitHub username and email in the plugin's configuration panel.
-		<img src="../assets/plugin-git-config.jpg" width="400" height="400"/>
+	
+		<img src="../assets/plugin-git-config.jpg"/>
+
 1. **Push Changes with Personal Access Token (First Time Only):**
     
     - Generate a **Personal Access Token** on GitHub:  
