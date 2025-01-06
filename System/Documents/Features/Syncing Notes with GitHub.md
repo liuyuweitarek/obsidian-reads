@@ -35,14 +35,17 @@ You can push your notes to GitHub for backup or syncing across multiple devices.
 	
 	- Navigate to **Settings** > **Community Plugins** > **Git**.
 	- Enter your GitHub username and email in the plugin's configuration panel.
-
+		![](../assets/plugin-git-config.JPG)
 7. **Push Changes with Personal Access Token (First Time Only):**
     
     - Generate a **Personal Access Token** on GitHub:  
         Go to **Settings** > **Developer Settings** > **Personal Access Tokens (classic)** > **Generate New Token**.
     - Use this token to authenticate during your first `git push`. **Keep the token secure and private.**
-
-8. **Daily Workflow:**
+		![](../assets/plugin-git-first-login-personaltoken-githubpage.JPG)
+		![](../assets/plugin-git-first-login-personaltoken.JPG)
+		![](../assets/plugin-git-first-login-auth.JPG)
+1. **Daily Workflow:**
     
     - Use `Ctrl + +` to stage and commit changes.
+		![](../assets/plugin-git-commit-success.JPG)
     - Use `Ctrl + ↑` to push changes to GitHub.

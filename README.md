@@ -40,7 +40,8 @@ Zotero focuses on "recording initial readings", while Obsidian emphasizes "secon
 
 5. Install the "[Zotero Connector](https://www.zotero.org/download/connectors)" for your browser.   
 6. **(Optional)** Configure github information for online backup. 
-7. **(Optional)** Configure zotero information for backing up literature.
+	See more in [Syncing Notes with GitHub](./System/Documents/Features/Syncing%20Notes%20with%20GitHub.md).
+7. **(Optional)** [Login Zotero](https://www.zotero.org/) for backing up literature.
 ## Workflows
 
 Please see the [Paper Reading WorkFlow](./System/Documents/Workflows/Paper%20Reading%20WorkFlow.md).
