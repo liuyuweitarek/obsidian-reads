@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5106964111328
+    "width": 432.5106964111328
   },
   "right": {
     "id": "2a910ce72cad6e09",
@@ -189,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79c6cf798c9af6a3",
+  "active": "63528714a8f7445f",
   "lastOpenFiles": [
     "System/Documents/assets/plugin-git-first-login-auth.jpg",
     "System/Documents/assets/plugin-git-first-login-personaltoken.jpg",
