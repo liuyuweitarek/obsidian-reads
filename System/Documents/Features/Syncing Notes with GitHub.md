@@ -43,12 +43,17 @@ You can push your notes to GitHub for backup or syncing across multiple devices.
     - Generate a **Personal Access Token** on GitHub:  
         Go to **Settings** > **Developer Settings** > **Personal Access Tokens (classic)** > **Generate New Token**.
     - Use this token to authenticate during your first `git push`. **Keep the token secure and private.**
-	s
+	
 		<img src="../assets/plugin-git-first-login-personaltoken-githubpage.jpg"/>
+		
 		<img src="../assets/plugin-git-first-login-personaltoken.jpg"/>
+		
 		<img src="../assets/plugin-git-first-login-auth.jpg"/>
+		
 1. **Daily Workflow:**
     
     - Use `Ctrl + +` to stage and commit changes.
+	
 		<img src="../assets/plugin-git-commit-success.jpg"/>
+		
     - Use `Ctrl + ↑` to push changes to GitHub.
