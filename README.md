@@ -43,7 +43,7 @@ Zotero focuses on "recording initial readings", while Obsidian emphasizes "secon
 7. **(Optional)** Configure zotero information for backing up literature.
 ## Workflows
 
-Please see the [Paper Reading WorkFlow](https://github.com/liuyuweitarek/obsidian-reads/blob/main/System/Documents/WorkFlows/Paper%20Reading%20WorkFlow.md).
+Please see the [Paper Reading WorkFlow](./System/Documents/Workflows/Paper%20Reading%20WorkFlow.md).
 
 If you handle other knowledge sources, such as meeting discussions, and need to ensure privacy, refer to the guide: [Creating Notes for Knowledge Inputs with Privacy Requirements.md]().
 ## Features
@@ -54,7 +54,7 @@ Not all features will suit every user's needs, and you may have alternative appr
 
 **Obsidian Features**
 
-- [x] [Syncing Notes with GitHub](https://github.com/liuyuweitarek/obsidian-reads/blob/main/System/Documents/WorkFlows/Paper%20Reading%20WorkFlow.md)
+- [x] [Syncing Notes with GitHub](./System/Documents/Features/Syncing%20Notes%20with%20GitHub.md)
 
 - [ ] [Import Literature from Zotero]()
 
@@ -92,7 +92,7 @@ If certain Obsidian features are not functioning, or you want to customize the s
 	2. Metadata Menu
 - [AI Helper]()
 	1. Text Generator
-- [Syncing Notes with GitHub]()
+- [Syncing Notes with GitHub](./System/Documents/Features/Syncing%20Notes%20with%20GitHub.md)
 	1. [Git](https://github.com/Vinzent03/obsidian-git) - `2.31.1`
 
 
