@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System/Documents/Features/Syncing Notes with GitHub.md",
+                "file": "System/Documents/Features/AI Helper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Syncing Notes with GitHub"
+              "title": "AI Helper"
             }
           }
         ]
@@ -189,19 +189,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63528714a8f7445f",
+  "active": "79c6cf798c9af6a3",
   "lastOpenFiles": [
+    "README.md",
+    "System/Documents/Features/AI Helper.md",
+    "System/Documents/Features/Query Notes Based on Note Properties.md",
+    "System/Documents/Features/Note Properties Management.md",
+    "System/Documents/Features/Command Palette Commands for Adding Template Note.md",
+    "System/Documents/Features/Import Literature from Zotero.md",
+    "System/Documents/Features/Syncing Notes with GitHub.md",
     "System/Documents/assets/plugin-git-first-login-auth.jpg",
     "System/Documents/assets/plugin-git-first-login-personaltoken.jpg",
-    "System/Documents/Features/Syncing Notes with GitHub.md",
     "System/Documents/assets/plugin-git-first-login.jpg",
     "System/Documents/assets/plugin-git-config-failed.jpg",
     "System/Documents/assets/plugin-git-config.jpg",
     "System/Documents/assets/plugin-git-commit-success.jpg",
     "System/Documents/assets/plugin-git-first-login-personaltoken-githubpage.jpg",
-    "README.md",
     "Taxonomy.md",
-    "System/Documents/Features/Import Literature from Zotero.md",
     "System/Documents/Workflows/Paper Reading WorkFlow.md",
     "System/Documents/assets/drive-download-20250106T152033Z-001.zip",
     "System/Documents/Workflows",

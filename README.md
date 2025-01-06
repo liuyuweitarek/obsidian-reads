@@ -53,21 +53,23 @@ This section outlines the features available in the current project, including t
 
 Not all features will suit every user's needs, and you may have alternative approaches to achieve the same goals. Pull requests are always welcome. Feel free to enable only the features you require and focus on learning those.
 
-**Obsidian Features**
+**Obsidian**
 
 - [x] [Syncing Notes with GitHub](./System/Documents/Features/Syncing%20Notes%20with%20GitHub.md)
 
-- [ ] [Import Literature from Zotero]()
+- [ ] [Import Literature from Zotero](./System/Documents/Features/Import%20Literature%20from%20Zotero.md)
 
-- [ ] [Command Palette Commands for Adding Template Note]()
+- [ ] [Note Properties Management](./System/Documents/Features/Note%20Properties%20Management.md)
 
-- [ ] [Note Properties Management]()
+- [ ] [Query Notes Based on Note Properties](./System/Documents/Features/Query%20Notes%20Based%20on%20Note%20Properties.md)
 
-- [ ] [Query Notes Based on Note Properties]()  
+- [ ] [Command Palette Commands for Adding Template Note](./System/Documents/Features/Command%20Palette%20Commands%20for%20Adding%20Template%20Note.md)
 
-**Zotero Features** 
+- [ ] [AI Helper](./System/Documents/Features/AI%20Helper.md)
 
-- [ ] [Transcript Underlined Content](./System/Documents/Transcript%20underlined%20content.md) 
+**Zotero** 
+
+- [x] Transcript Underlined Content 
 
 - [ ] [Add New Citation Format](./System/Documents/Add%20New%20Citation%20Format.md)
 
@@ -77,24 +79,29 @@ Not all features will suit every user's needs, and you may have alternative appr
 
 If certain Obsidian features are not functioning, or you want to customize the system by adding your own plugins, here is a complete list of plugins used in this project and the features they support. This helps simplify debugging and modification.
 
-- [Command Palette Commands for Adding Template Note]()
-	1. QuickAdd
-	2. Templater
+- [Syncing Notes with GitHub](./System/Documents/Features/Syncing%20Notes%20with%20GitHub.md)
+	1. [Git](https://github.com/Vinzent03/obsidian-git) - `2.31.1`
 	
 - [Import Literature from Zotero](./System/Documents/Import%20Literature%20from%20Zotero.md)
 	1. Zotero Integration 
 	2. QuickAdd
 	3. Templater
-	
-- [Note Properties Management]()
+
+- [Note Properties Management](./System/Documents/Features/Note%20Properties%20Management.md)
 	1. Metadata Menu
-- [Query notes based on note properties]()
+	
+- [Query notes based on note properties](./System/Documents/Features/Note%20Properties%20Management.md)
 	1. Dataview
 	2. Metadata Menu
-- [AI Helper]()
+	
+- [Command Palette Commands for Adding Template Note](./System/Documents/Features/Command%20Palette%20Commands%20for%20Adding%20Template%20Note.md)
+	1. QuickAdd
+	2. Templater
+	3. Metadata Menu
+	4. Dataview
+	
+- [AI Helper](./System/Documents/Features/AI%20Helper.md)
 	1. Text Generator
-- [Syncing Notes with GitHub](./System/Documents/Features/Syncing%20Notes%20with%20GitHub.md)
-	1. [Git](https://github.com/Vinzent03/obsidian-git) - `2.31.1`
 
 
 
