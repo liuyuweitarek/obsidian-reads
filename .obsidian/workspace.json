@@ -172,8 +172,19 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "dfcdb8af8aec4d16",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -188,13 +199,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "79c6cf798c9af6a3",
   "lastOpenFiles": [
-    "System/Documents/Backup with Github.md",
+    "System/Documents/Features/Syncing Notes with GitHub.md",
     "README.md",
+    "System/Documents/Workflows/Paper Reading WorkFlow.md",
+    "System/Documents/Workflows",
+    "System/Documents/Features",
+    "().md",
+    "System/Documents/assets",
     "Taxonomy.md",
     "System/Templates/Paper.md",
     "Reads/Papers/assets",
