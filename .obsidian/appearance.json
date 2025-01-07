@@ -1,3 +1,9 @@
 {
-  "showViewHeader": true
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "zotero-highlight-colors",
+    "highlightr",
+    "center-image",
+    "custom-admonitions.db0fbd"
+  ]
 }

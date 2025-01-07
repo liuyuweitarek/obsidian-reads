@@ -45,8 +45,6 @@ Zotero focuses on "recording initial readings", while Obsidian emphasizes "secon
 ## Workflows
 
 Please see the [Paper Reading WorkFlow](./System/Documents/Workflows/Paper%20Reading%20WorkFlow.md).
-
-If you handle other knowledge sources, such as meeting discussions, and need to ensure privacy, refer to the guide: [Creating Notes for Knowledge Inputs with Privacy Requirements.md]().
 ## Features
 
 This section outlines the features available in the current project, including their usage, recommended hotkeys, and purposes.
@@ -57,21 +55,17 @@ Not all features will suit every user's needs, and you may have alternative appr
 
 - [x] [Syncing Notes with GitHub](./System/Documents/Features/Syncing%20Notes%20with%20GitHub.md)
 
-- [ ] [Import Literature from Zotero](./System/Documents/Features/Import%20Literature%20from%20Zotero.md)
+- [x] [Import Literature from Zotero](./System/Documents/Features/Import%20Literature%20from%20Zotero.md)
 
-- [ ] [Note Properties Management](./System/Documents/Features/Note%20Properties%20Management.md)
+- [x] [Note Properties Management](https://youtu.be/qi4Uz7TZLOM?si=x3g8RJoYi-bRlcw0)
 
-- [ ] [Query Notes Based on Note Properties](./System/Documents/Features/Query%20Notes%20Based%20on%20Note%20Properties.md)
-
-- [ ] [Command Palette Commands for Adding Template Note](./System/Documents/Features/Command%20Palette%20Commands%20for%20Adding%20Template%20Note.md)
-
-- [ ] [AI Helper](./System/Documents/Features/AI%20Helper.md)
+- [x] [Command Palette Commands for Adding Template Note](https://youtu.be/LrQVQ37y6IU?si=VSkvdPPK1wPrilAr)
 
 **Zotero** 
 
 - [x] Transcript Underlined Content 
 
-- [ ] [Add New Citation Format](./System/Documents/Add%20New%20Citation%20Format.md)
+- [x] [Add New Citation Format](https://www.zotero.org/support/preferences/cite)
 
 ## Related Plugins
 
@@ -83,25 +77,18 @@ If certain Obsidian features are not functioning, or you want to customize the s
 	1. [Git](https://github.com/Vinzent03/obsidian-git) - `2.31.1`
 	
 - [Import Literature from Zotero](./System/Documents/Import%20Literature%20from%20Zotero.md)
-	1. Zotero Integration 
-	2. QuickAdd
-	3. Templater
+	1. [Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration)- `3.1.14` 
+	3. [Templater](https://github.com/SilentVoid13/Templater) - `1.18.3`
 
-- [Note Properties Management](./System/Documents/Features/Note%20Properties%20Management.md)
-	1. Metadata Menu
-	
-- [Query notes based on note properties](./System/Documents/Features/Note%20Properties%20Management.md)
-	1. Dataview
-	2. Metadata Menu
-	
-- [Command Palette Commands for Adding Template Note](./System/Documents/Features/Command%20Palette%20Commands%20for%20Adding%20Template%20Note.md)
-	1. QuickAdd
-	2. Templater
-	3. Metadata Menu
-	4. Dataview
-	
-- [AI Helper](./System/Documents/Features/AI%20Helper.md)
-	1. Text Generator
+- [Note Properties Management](https://youtu.be/qi4Uz7TZLOM?si=x3g8RJoYi-bRlcw0)
+	1. [Metadata Menu](https://github.com/mdelobelle/metadatamenu) - `0.8.7`
+	2. [Dataview](https://github.com/blacksmithgu/obsidian-dataview) - `0.5.67`
+
+- [Command Palette Commands for Adding Template Note](https://youtu.be/LrQVQ37y6IU?si=VSkvdPPK1wPrilAr)
+	1. [QuickAdd](https://github.com/chhoumann/quickadd) - `1.11.5`
+	2. [Templater](https://github.com/SilentVoid13/Templater) - `1.18.3`
+	3. [Metadata Menu](https://github.com/mdelobelle/metadatamenu) - `0.8.7`
+	4. [Dataview](https://github.com/blacksmithgu/obsidian-dataview) - `0.5.67`
 
 
 

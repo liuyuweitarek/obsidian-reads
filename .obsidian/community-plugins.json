@@ -1,3 +1,9 @@
 [
-  "obsidian-git"
+  "obsidian-git",
+  "callout-manager",
+  "templater-obsidian",
+  "obsidian-zotero-desktop-connector",
+  "metadata-menu",
+  "dataview",
+  "quickadd"
 ]

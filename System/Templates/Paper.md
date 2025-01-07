@@ -63,7 +63,7 @@ tags: {% if tags.length > 0 -%}{%- for t in tags -%}{%- set replaced_tag = t.tag
 
 {%-
     set zoteroColors = {
-	"#2ea8e5": "blue",
+		"#2ea8e5": "blue",
         "#a3fc77": "green",
         "#a28ae5": "purple",
         "#ff6666": "red",
@@ -97,15 +97,12 @@ tags: {% if tags.length > 0 -%}{%- for t in tags -%}{%- set replaced_tag = t.tag
         Note
     {%- endswitch -%}
 {%- endmacro %}
-
 {%- set newAnnot = [] -%}
 {%- set newAnnotations = [] -%}
 {%- set annotations = annotations | filterby("date", "dateafter", lastImportDate) %}
-
 {% if annotations.length > 0 %}
 
 {%- for annot in annotations -%}
-
     {%- if annot.color in zoteroColors -%}
         {%- set customColor = zoteroColors[annot.color] -%}
     {%- elif annot.colorCategory|lower in colorHeading -%}
@@ -113,9 +110,7 @@ tags: {% if tags.length > 0 -%}{%- for t in tags -%}{%- set replaced_tag = t.tag
     {%- else -%}
 	    {%- set customColor = "other" -%}
     {%- endif -%}
-
     {%- set newAnnotations = (newAnnotations.push({"annotation": annot, "customColor": customColor}), newAnnotations) -%}
-
 {%- endfor -%}
 
 {#- INSERT ANNOTATIONS -#}
@@ -127,7 +122,6 @@ tags: {% if tags.length > 0 -%}{%- for t in tags -%}{%- set replaced_tag = t.tag
 {%- set annot = entry.annotation -%}
 
 {%- if entry and loop.first %}
-
 ### {{colorHeading[color]}}
 {%- endif %}
 
@@ -136,15 +130,20 @@ tags: {% if tags.length > 0 -%}{%- for t in tags -%}{%- set replaced_tag = t.tag
 {%- if annot.annotatedText %}
 {{annot.annotatedText}} 
 
-{% if annot.hashTags %}{{annot.hashTags}}{% endif -%}
+{% if annot.hashTags %}
+{{annot.hashTags}}
+{% endif -%}
 {%- endif %}
+
 {%- if annot.imageRelativePath %}
 ![[{{annot.imageRelativePath}}]]
 {% if annot.hashTags %}{{annot.hashTags}}{% endif -%}
 {%- endif %}
+
 {%- if annot.ocrText %}
 {{annot.ocrText}}
 {%- endif %}
+
 {%- if annot.comment %}
 {{annot.comment}}
 {%- endif -%}

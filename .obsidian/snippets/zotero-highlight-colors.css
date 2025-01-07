@@ -1,0 +1,70 @@
+.lalalatest { 
+    --callout-color: rgb(187, 255, 86);
+}
+
+.callout[data-callout="paper_citation"] {
+    --callout-color: 199, 250, 122;
+    --callout-icon: lucide-link;
+}
+
+.callout[data-callout="paper_synthesis"] {
+    --callout-color: 144, 255, 119;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="paper_metadata"] {
+    --callout-color: 134, 5, 255;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="paper_link"] {
+    --callout-color: 253, 150, 255;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="paper_abstract"] {
+    --callout-color: 90, 250, 202;
+    --callout-icon: lucide-file-text;
+}
+
+/* The below code creates a highlght field callout */
+
+.callout[data-callout="paper_highlight_orange"] {
+    --callout-color: 241, 152, 55;
+    --callout-icon: lucide-book-open-text;
+}
+
+.callout[data-callout="paper_highlight_yellow"] {
+    --callout-color: 255, 212, 0;
+    --callout-icon: lucide-footprints;
+}
+
+.callout[data-callout="paper_highlight_blue"] {
+    --callout-color: 46, 168, 229;
+    --callout-icon: lucide-sparkles;
+}
+
+.callout[data-callout="paper_highlight_purple"] {
+    --callout-color: 162, 138, 229;
+    --callout-icon: lucide-atom;
+}
+
+.callout[data-callout="paper_highlight_green"] {
+    --callout-color: 163, 252, 119;
+    --callout-icon: lucide-brain;
+}
+
+.callout[data-callout="paper_highlight_red"] {
+    --callout-color: 255, 102, 102;
+    --callout-icon: lucide-shield-alert;
+}
+
+.callout[data-callout="paper_highlight_gray"] {
+    --callout-color: 170, 170, 170;
+    --callout-icon: lucide-puzzle;
+}
+
+.callout[data-callout="paper_highlight_magenta"] {
+    --callout-color: 229, 110, 238;
+    --callout-icon: lucide-clipboard-paste;
+}

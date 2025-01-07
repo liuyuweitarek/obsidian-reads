@@ -1,0 +1,29 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "Reads/Papers/Staged",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "BibTeXCitation",
+      "format": "template",
+      "template": "{{citekey}}",
+      "cslStyle": "bibtex"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Create Literature Note",
+      "outputPathTemplate": "Reads/Papers/Staged/@{{citekey}}.md",
+      "imageOutputPathTemplate": "Reads/Papers/assets/{{citekey}}/",
+      "imageBaseNameTemplate": "{{citekey}}",
+      "cslStyle": "bibtex",
+      "templatePath": "System/Templates/Paper.md"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "shouldConcat": true
+}
